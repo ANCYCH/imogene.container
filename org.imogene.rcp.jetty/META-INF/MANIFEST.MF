@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Jetty
+Bundle-SymbolicName: org.imogene.rcp.jetty;singleton:=true
+Bundle-Version: 1.0.0
+Bundle-Activator: org.imogene.rcp.jetty.JettyActivator
+Require-Bundle: javax.servlet,
+ org.eclipse.core.runtime,
+ org.eclipse.jetty.server,
+ org.eclipse.jetty.servlet,
+ org.eclipse.jetty.util,
+ org.eclipse.jetty.webapp,
+ org.slf4j.log4j
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Bundle-Vendor: Medes-IMPS
+Bundle-ClassPath: .

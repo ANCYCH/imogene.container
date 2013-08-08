@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         point="org.imogene.rcp.jetty.webapps">
+      <webapp
+            context="TBLabWeb"
+            path="WebContent/TBLabPom-1.0-SNAPSHOT.war">
+      </webapp>
+   </extension>
+
+</plugin>

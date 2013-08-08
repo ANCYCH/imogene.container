@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: org.imogene.rcp.webapps;singleton:=true
+Bundle-Version: 1.0.0
+Require-Bundle: org.imogene.rcp.jetty
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Bundle-Vendor: Medes-IMPS
+Bundle-Name: ExTBCam Embedded Web Application
