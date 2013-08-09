@@ -4,8 +4,8 @@
    <extension
          point="org.imogene.rcp.jetty.webapps">
       <webapp
-            context="TBLabWeb"
-            path="WebContent/TBLabPom-1.0-SNAPSHOT.war">
+            context="extbcam"
+            path="WebContent/extbcam-web-2.0.0-SNAPSHOT.war">
       </webapp>
    </extension>
 
