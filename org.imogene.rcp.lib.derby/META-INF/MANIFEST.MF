@@ -2,7 +2,7 @@ Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: Derby libraries
 Bundle-SymbolicName: org.imogene.rcp.lib.derby
-Bundle-Version: 1.0.0
+Bundle-Version: 2.0.0
 Bundle-ClassPath: derby.jar,
  derbyclient.jar,
  derbynet.jar,

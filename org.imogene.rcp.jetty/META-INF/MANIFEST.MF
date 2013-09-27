@@ -2,7 +2,7 @@ Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: Jetty
 Bundle-SymbolicName: org.imogene.rcp.jetty;singleton:=true
-Bundle-Version: 1.0.0
+Bundle-Version: 2.0.0
 Bundle-Activator: org.imogene.rcp.jetty.JettyActivator
 Require-Bundle: javax.servlet,
  org.eclipse.core.runtime,

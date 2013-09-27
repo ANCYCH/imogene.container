@@ -2,7 +2,7 @@ Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: Log4j
 Bundle-SymbolicName: org.slf4j.log4j
-Bundle-Version: 1.0.0
+Bundle-Version: 2.0.0
 Bundle-ClassPath: log4j-1.2.17.jar,
  slf4j-api-1.7.5.jar,
  slf4j-log4j12-1.7.5.jar
