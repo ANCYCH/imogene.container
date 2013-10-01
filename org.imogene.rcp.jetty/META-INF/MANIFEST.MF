@@ -13,4 +13,4 @@ Require-Bundle: javax.servlet,
  org.slf4j.log4j
 Bundle-RequiredExecutionEnvironment: JavaSE-1.6
 Bundle-Vendor: Medes-IMPS
-Bundle-ClassPath: .
+Bundle-ActivationPolicy: lazy

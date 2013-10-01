@@ -3,7 +3,8 @@ Bundle-ManifestVersion: 2
 Bundle-Name: ExTBCam Initializer
 Bundle-SymbolicName: org.imogene.rcp.initializer;singleton:=true
 Bundle-Version: 2.0.0
-Bundle-Activator: org.imogene.rcp.initializer.Activator
+Bundle-Activator: org.imogene.rcp.initializer.InitActivator
 Require-Bundle: org.eclipse.core.runtime
 Bundle-RequiredExecutionEnvironment: JavaSE-1.6
 Bundle-Vendor: Medes-IMPS
+Bundle-ActivationPolicy: lazy

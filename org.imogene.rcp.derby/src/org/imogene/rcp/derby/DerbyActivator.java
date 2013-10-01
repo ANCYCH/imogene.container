@@ -6,9 +6,9 @@ import org.apache.derby.drda.NetworkServerControl;
 import org.osgi.framework.BundleActivator;
 import org.osgi.framework.BundleContext;
 
-public class Activator implements BundleActivator {
+public class DerbyActivator implements BundleActivator {
 
-	private static final Logger logger = Logger.getLogger(Activator.class.getName());
+	private static final Logger logger = Logger.getLogger(DerbyActivator.class.getName());
 
 	private static BundleContext sContext;
 
@@ -21,14 +21,14 @@ public class Activator implements BundleActivator {
 	@Override
 	public void start(BundleContext bundleContext) throws Exception {
 		logger.info("Starting Derby");
-		Activator.sContext = bundleContext;
+		DerbyActivator.sContext = bundleContext;
 		mNetworkServerControl = new NetworkServerControl();
 		mNetworkServerControl.start(null);
 	}
 
 	@Override
 	public void stop(BundleContext bundleContext) throws Exception {
-		Activator.sContext = null;
+		DerbyActivator.sContext = null;
 
 		mNetworkServerControl.shutdown();
 	}
