@@ -163,7 +163,9 @@ public class JettyActivator implements BundleActivator {
 		 * *DIFFICULT* problem as there is no way for Jetty to extract the classpath and pass that to JspServlet."
 		 */
 		WebAppClassLoader wacl = new WebAppClassLoader(getClass().getClassLoader(), wac);
-		wacl.addJars(Resource.newResource(FileLocator.toFileURL(JettyActivator.context.getBundle().getEntry("/lib"))));
+		URL jarsUrl = JettyActivator.context.getBundle().getEntry("/lib");
+		File jarsFile = new File(FileLocator.toFileURL(jarsUrl).getPath());
+		wacl.addJars(Resource.newResource(jarsFile));
 		wac.setClassLoader(wacl);
 
 		wac.addServerClass("org.slf4j.");
