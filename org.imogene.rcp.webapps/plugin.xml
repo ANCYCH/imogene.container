@@ -5,7 +5,7 @@
          point="org.imogene.rcp.jetty.webapps">
       <webapp
             context="extbcam"
-            path="WebContent/extbcam-web-2.0.0-SNAPSHOT.war">
+            path="WebContent/extbcam-web-2.0.0.war">
       </webapp>
    </extension>
 
