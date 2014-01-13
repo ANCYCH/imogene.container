@@ -92,6 +92,9 @@ public class JettyActivator implements BundleActivator {
 	private void processServletConfig(IConfigurationElement config) throws IOException, CoreException {
 		String name = config.getAttribute(ATTR_NAME);
 		String className = config.getAttribute(ATTR_CLASS);
+		if (!name.startsWith("/")) {
+			name = "/" + name;
+		}
 
 		// Retrieve the plug-in declaring the extension point
 		Bundle bundle = Platform.getBundle(config.getDeclaringExtension().getNamespaceIdentifier());
